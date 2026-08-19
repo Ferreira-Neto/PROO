@@ -35,7 +35,7 @@ oracle openjdk 26.0.2
 
 ### Atividade 3: Explorando os tipos primitivos e mensagens de erro
 
-a. Qual a utilidade do tipo primitivo `boolean`?
+a. Qual a utilidade do tipo primitivo `boolean`?  
 Valores lógicos true ou false (verdadeiro ou falso).
 
 
@@ -47,10 +47,10 @@ Os erros foram identificados de maneira clara, sinalizando em qual linha do cód
 
 c. Você encontrou, ou conhece, algum outro operador da linguagem não mencionado nesta atividade?
 
-Operadores de incremento/decremento: ++ e --
-Operador de resto: %
-Operadores lógicos: && (E), || (OU), ! (negação)
-Operador ternário: ? :
+Operadores de incremento/decremento: ++ e --  
+Operador de resto: %  
+Operadores lógicos: && (E), || (OU), ! (negação)  
+Operador ternário: ? :  
 
 ---
 
