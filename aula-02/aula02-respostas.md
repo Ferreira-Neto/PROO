@@ -9,7 +9,7 @@
 
 ### Atividade 1: Identificando operadores
 
-a. _A JVM é uma máquina virtual Java responsável por interpretar em diferentes sistemas operacionais o "código intermediário"  byetecode gerado pelo compilador _  
+a. *A JVM é uma máquina virtual Java responsável por interpretar em diferentes sistemas operacionais o "código intermediário"  byetecode gerado pelo compilador.*  
 b. _ _  
 c. _ _  
 
