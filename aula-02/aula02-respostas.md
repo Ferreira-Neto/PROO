@@ -1,16 +1,15 @@
 # JVM, Versionamento
 ## Roteiro de Atividades
 
-- Nome:
-- Data:
+- Nome: Vicente Ferreira  
+- Data: 23/08/2026  
 
-> Segue um exemplo de como organizar suas respostas por atividade. Adote o padrão para todas as atividades. Depois de ler isto, apague esta mensagem.
 
 ---
 
 ### Atividade 1: Identificando operadores
 
-a. _ _  
+a. _A JVM é uma máquina virtual Java responsável por interpretar em diferentes sistemas operacionais o "código intermediário"  byetecode gerado pelo compilador _  
 b. _ _  
 c. _ _  
 
