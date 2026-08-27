@@ -6,18 +6,41 @@
 
 
 ---
+*A JVM é uma máquina virtual Java responsável por interpretar em diferentes sistemas operacionais o "código intermediário"  byetecode gerado pelo compilador.*  
 
 ### Atividade 1: Identificando operadores
 
-a. *A JVM é uma máquina virtual Java responsável por interpretar em diferentes sistemas operacionais o "código intermediário"  byetecode gerado pelo compilador.*  
-b. _ _  
-c. _ _  
+A.  
+*&= (E bit a bit + atribuição)  
+  |= (OU bit a bit + atribuição)  
+   ^= (XOR bit a bit + atribuição)*  
+   
+B/C.  
+
+int a = 2;  
+int b = 3;  
+a &= b;  
+System.out.println(a);//2//  
+
+int c = 12;  
+int d = 3;  
+c |= d;  
+System.out.println(c);//15//  
+
+int e = 5;  
+int f = 3;  
+e ^= f;  
+System.out.println(e); //6//  
+}
+}  
+
+ 
 
 ---
 
 ### Atividade 2: JVM e o princípio *Write once, run anywhere*
 
-a. _ _  
+a. _https://www.youtube.com/watch?v=EQZfuIJ49hI_  
 b. _ _  
 c. Respostas:  
 
