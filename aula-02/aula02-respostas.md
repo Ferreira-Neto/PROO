@@ -86,8 +86,9 @@ A relação com write once, run anywhere, vem da capacidade da JDK compilar o c�
 
 ### Atividade 3: Criação de repositório no GitHub
 
-a. _ _  
-b. _ _  
+a. _"git add" move as alterações do working directory para a staging area (também chamada de "index"). Ele apenas marca quais mudanças serão incluídas no próximo commit não cria nenhum registro permanente no histórico.  
+"git commit" pega o que está na staging area e cria um snapshot permanente no histórico do repositório local, com um hash único, autor, data e mensagem._  
+b. __  
 c. Apoio de IA:  
 - Informe o prompt exato que você utilizou:  
 - Registre a resposta gerada pela IA:  
