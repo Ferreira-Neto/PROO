@@ -1,3 +1,6 @@
+# Disciplina de POO- Exercicios
+Repositório de exercícios da disciplina de Programacao Orientada a Objetos.
+
 * [Aula 01](./aula-01)
 * [Aula 02](./aula-02)
 * [Aula 03](./aula-03)
