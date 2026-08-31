@@ -86,17 +86,33 @@ A relação com write once, run anywhere, vem da capacidade da JDK compilar o c�
 
 ### Atividade 3: Criação de repositório no GitHub
 
-a. _"git add" move as alterações do working directory para a staging area (também chamada de "index"). Ele apenas marca quais mudanças serão incluídas no próximo commit não cria nenhum registro permanente no histórico.  
-"git commit" pega o que está na staging area e cria um snapshot permanente no histórico do repositório local, com um hash único, autor, data e mensagem._  
-b. __  
+- a. "git add" move as alterações do working directory para a staging area (também chamada de "index"). Ele apenas marca quais mudanças serão incluídas no próximo commit não cria nenhum registro permanente no histórico.  
+"git commit" pega o que está na staging area e cria um snapshot permanente no histórico do repositório local, com um hash único, autor, data e mensagem.  
+As alterações não são perdidas, elas ficam "penduradas" localmente, gravadas no disco em .git/index e no diretório de trabalho. Ao abrir o terminal e rodar git status, você verá os arquivos ainda marcados como "staged" (prontos para commit). Eles não foram enviados ao GitHub, isso só aconteceria depois de um commit seguido de push.  
+
+- b. Indica que o repositório local e repositório remoto são duas cópias independentes do histórico, sincronizadas manualmente.  
+O commit só afeta o repositório local (na sua máquina, dentro da pasta .git).  
+O GitHub só sabe da existência de um commit quando você manda essa informação com git push.  
+    
 c. Apoio de IA:  
-- Informe o prompt exato que você utilizou:  
+- Informe o prompt exato que você utilizou: o commit foi "Create readme"
+Avalie se a mensagem de commit  segue boas práticas (ex.: convenção de commits semânticos, como feat:, fix:, chore:).
+
 - Registre a resposta gerada pela IA:  
+Falta o prefixo de tipo (feat:, fix:, chore:, docs:, etc.). Toda mensagem no padrão semântico começa com um tipo que categoriza a mudança. Criar/adicionar um arquivo de documentação como o README se encaixa no tipo docs:.
+Verbo no infinitivo/gerúndio em inglês misturado sem padrão — "Create" está no imperativo em inglês, o que até é aceitável (a convenção recomenda modo imperativo: "add", não "added" ou "adding"), mas fica inconsistente se o resto do projeto for documentado em português.
+Mensagem genérica demais — não deixa claro o que exatamente foi adicionado ou por quê, embora para um README simples isso seja mais tolerável.
+
 - Com base na resposta da IA, reescreva sua mensagem de commit seguindo a convenção sugerida e explique, em uma frase, por que mensagens de commit padronizadas são úteis em projetos colaborativos.  
+Sugestão de reescrita seguindo a convenção:
+docs: adicionar README Repositório de exercícios da disciplina de POO.  
+ou, mantendo em inglês para consistência com convenções internacionais:  
+docs: add README with Repository of exercises for the OOP.    
+Mensagens padronizadas facilitam a leitura do histórico do projeto por qualquer pessoa da equipe, permitem gerar changelogs automaticamente e tornam mais fácil localizar quando e por que uma mudança específica foi feita.  
 
 ---
 
 ### Atividade 4: Exercícios HackerRank
 
-a. _ _  
-b. _ _  
+a.  
+b. 
