@@ -47,22 +47,23 @@ O compilador C gera código de máquina diretamente para uma arquitetura e SO es
 _ _  
 
 **(c):**
-- Informe o prompt exato que você utilizou: Quais as diferenças entre bytecode, JVM, JRE e
-JDK.  
-- Registre a resposta gerada pela IA:
-Bytecode
+- Informe o prompt exato que você utilizou:  
+**Quais as diferenças entre bytecode, JVM, JRE e
+JDK.**  
+- Registre a resposta gerada pela IA:  
 
+**Bytecode**  
 É o arquivo gerado quando você compila seu código Java com javac. Não é código-fonte (o .java que você escreve) nem é código de máquina nativo (o que o processador executa diretamente) — é um formato intermediário, padronizado, feito de instruções simples que qualquer JVM sabe interpretar. Fica salvo no arquivo .class.
 
-JVM (Java Virtual Machine)
+**JVM (Java Virtual Machine)**  
 
 É o programa que executa o bytecode. Ela lê as instruções do .class e as traduz para instruções que o processador da sua máquina realmente entende — seja interpretando linha a linha, seja compilando partes com o JIT (Just-In-Time) para ganhar performance. É a JVM que existe em versões diferentes para Windows, Linux e macOS, e que torna o mesmo bytecode executável em qualquer uma dessas plataformas.
 
-JRE (Java Runtime Environment)
+**JRE (Java Runtime Environment)**
 
 É o pacote necessário para rodar programas Java. Contém a JVM mais as bibliotecas padrão da linguagem (classes prontas como String, ArrayList, Scanner, etc., que qualquer programa Java pode usar). Se você só precisa executar um programa Java já pronto (um .jar, por exemplo), o JRE é suficiente.
 
-JDK (Java Development Kit)
+**JDK (Java Development Kit)**
 
 É o pacote necessário para desenvolver programas Java. Contém o JRE inteiro mais as ferramentas de desenvolvimento: o compilador javac, o javap (que mostra o bytecode), depuradores, entre outras. Se você quer escrever e compilar código, precisa do JDK — é por isso que você tem, por exemplo, o jdk-26.0.2.1 instalado no seu Windows.
 
@@ -74,7 +75,7 @@ JDK
 Relação com "write once, run anywhere"
 
 Você usa o JDK para escrever e compilar seu código uma única vez, gerando bytecode. Esse mesmo bytecode roda em qualquer computador que tenha um JRE instalado (que já traz a JVM certa para aquele sistema operacional) — sem precisar reescrever ou recompilar o código-fonte para cada plataforma.  
-- Registre, com suas palavras, a sua resposta:  
+**- Registre, com suas palavras, a sua resposta:**  
 Bytecode é o arquivo .class gerado pelo interpretador JVM, funciona como um código intermediário, para ser executado em diferentes SOs.  
 JVM é a máquina virtual java que executa o bytecode em diferentes SO.
 JRE é um pacote com recursos para rodar programas java, contendo a JVM e mais as bibliotecas padrão da linguagem.  
