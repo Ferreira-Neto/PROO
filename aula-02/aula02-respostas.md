@@ -114,5 +114,4 @@ Mensagens padronizadas facilitam a leitura do histórico do projeto por qualquer
 
 ### Atividade 4: Exercícios HackerRank
 
-a.  
-b. 
+https://github.com/Ferreira-Neto/poo-ifsp-2026-Vicente-Ferreira/tree/main/hackerrank/src/aula02
