@@ -20,7 +20,7 @@ public class Loops2 {
 
                 long potencia = (long) Math.pow(2, j);
                 resultado = resultado + b * potencia;
-                System.out.print(resultado + " ");
+                System.out.printf("%d\t", resultado);
             }
             System.out.println();
         }
